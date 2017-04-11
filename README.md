@@ -24,41 +24,41 @@ The second iteration is our __multiple bettor__. He is where we can pull in a mo
 
 Given the preset odds of the game space, its understandable that the __simple bettor__ is going to fail. It's just a question of how long. Over a long enough time horizon, all players utilizing this strategy will go broke. It's fairly easy to visualize as well:
 
-![Simple_bettor]("Monte_Carlo_Sim/simple_bettor.png")
+![Simple_bettor](../simple_bettor.png")
 
 The results of our __better bettor__ improves quite a bit. We can incorporate an functionality that breaks the bettor off after they go broke. Visualizing the results of multiple simulations of this kind of bettor gives us a vastly different understanding of the game space.
 
-![Double_bettor]("Monte_Carlo_Sim/double_bettor.png")
+![Double_bettor](../https://github.com/jaredconnor301/Monte_Carlo_Sim/blob/master/double_bettor.png)
 
 We can visualize that utilizing the martingale strategy changes the aspect of risk that we should care about. In the short run multiple player actually make quite a bit more than the __simple bettor__ but assumably assumed more risk. Over the long run, the simulation life is substantially higher, but what comes into question is the _life expectancy_ of the bettors.
 
 We can generate general statistics that we can utilize as a benchmark for the next simulation we'll run. The __double bettor__ simulation yielded us these stats:
 
-#Bust rate (the rate at attrition): 31.325
-#Profit rate (rate which bettors earn a profit): 63.208
+# Bust rate (the rate at attrition): 31.325
+# Profit rate (rate which bettors earn a profit): 63.208
 
 Now is where the fun comes. By utilizing these statistics, we can run multiple world simulations by adjusting the multiple (remember the _y(x)_) to maximize these statistics.
 
-![Multiple_bettor]("Monte_Carlo_Sim/Results.png")
+![Multiple_bettor](../Results.png)
 
 So we can see that the best multiple is .4432 and yields the stats of:
 
-#Bust rate: 8
-#Profit rate: 28900.00
+# Bust rate: 8
+# Profit rate: 28900.00
 
-##TD;DL
+## TD;DL
 We simulated a Martingale Betting strategy with a Monte_Carlo_Sim to find the bettor can maximize risk adjusted returns by betting .4432 of the previous bet.
 
 ## Further Research
 
 * [Monte Carlo Simulations](https://en.wikipedia.org/wiki/Monte_Carlo_method)
-* [Martingale Betting System]https://en.wikipedia.org/wiki/Martingale
+* [Martingale Betting System](https://en.wikipedia.org/wiki/Martingale)
 
 ## Built With
 
-* [Python](https://docs.python.org/3/) - Python 3.6
+* [Python 3.6](https://docs.python.org/3/)
 
-* **Jared Connor** - [jaredconnor301](https://github.com/jaredconnor301)
+* [jaredconnor301](https://github.com/jaredconnor301)
 
 ## Acknowledgments
 
