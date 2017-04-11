@@ -2,13 +2,13 @@
 
 Monte Carlo Simulation
 
-# Getting Started
+### Getting Started
 
 Monte Carlo methods are essentially algorithms to utilize randomness to solve problems by _brute force_ methods. They are commonly used when it's difficult to model a situation using other pure mathematical approaches. They give us the possibility to test multiple outcome possibilities. This is possible because all outcomes have _in theory_ a finite possibility to occur.
 
 With respect to finance, Monte Carlo simulations can be used to evaluate investments and risk analysis. This project is done just for that.
 
-# Consider this gambling scenario
+### Consider this gambling scenario
 
 Where a user can roll a dice for an outcome of 1-100.
 * If the user rolls a number between 1-50 the "house" wins
@@ -21,7 +21,7 @@ Alternatively we can create a __better bettor__ that actually utilizes a marting
 
 The second iteration is our __multiple bettor__. He is where we can pull in a monte carlo simulation to actual determine the best multiple we can utilize to maximize the profit one makes and minimize the given risk that they could go broke, thus losing. If he loses the previous round, he will bet _y(x)_ amount based upon the previous wager amount. This _y_ multiple is determined by our simulation because we can simulation numerous worlds where the best multiple can be determined. _Important_: We are utilizing the result of the result of our __bettor bettor__ as a benchmark to determine if we did better.
 
-# Results
+## Results
 
 Given the preset odds of the game space, its understandable that the __simple bettor__ is going to fail. It's just a question of how long. Over a long enough time horizon, all players utilizing this strategy will go broke. It's fairly easy to visualize as well:
 
@@ -57,13 +57,13 @@ We simulated a Martingale Betting strategy with a Monte_Carlo_Sim to find the be
 * [Monte Carlo Simulations](https://en.wikipedia.org/wiki/Monte_Carlo_method)
 * [Martingale Betting System](https://en.wikipedia.org/wiki/Martingale)
 
-# Built With
+### Built With
 
 * [Python 3.6](https://docs.python.org/3/)
 
 * [jaredconnor301](https://github.com/jaredconnor301)
 
-# Acknowledgments
+### Acknowledgments
 
 * Harrison - *Initial Build* - [sentdex](https://github.com/Sentdex)
 * [sentdex YouTube](YouTube.com/Sentdex)
