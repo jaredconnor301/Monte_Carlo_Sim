@@ -45,7 +45,7 @@ Now is where the fun comes. By utilizing these statistics, we can run multiple w
 
 So we can see that the best multiple is .4432 and yields the stats of:
 
-__Bust rate: 8__
+__Bust rate: 8__\n
 __Profit rate: 28900.00__
 
 ## TD;DL
