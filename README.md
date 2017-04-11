@@ -24,7 +24,7 @@ The second iteration is our __multiple bettor__. He is where we can utilize a Mo
 
 ## Results
 
-__Simple Bettor_:
+__Simple Bettor__:
 
 Given the preset odds of the game space, its understandable that the __simple bettor__ is going to fail. It's just a question of how long. Over a long enough time horizon, all players utilizing this strategy will go broke. It's fairly easy to visualize as well
 
@@ -57,6 +57,14 @@ So we can see that the best multiple is .4432 and yields the stats of:
 * __Profit rate: 28900.00__
 
 ---------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
 
 ## TD;DL
 
