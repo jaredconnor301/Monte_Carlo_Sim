@@ -24,11 +24,11 @@ The second iteration is our __multiple bettor__. He is where we can pull in a mo
 
 Given the preset odds of the game space, its understandable that the __simple bettor__ is going to fail. It's just a question of how long. Over a long enough time horizon, all players utilizing this strategy will go broke. It's fairly easy to visualize as well:
 
-![Simple_bettor](../simple_bettor.png")
+![Simple_bettor](https://github.com/jaredconnor301/Monte_Carlo_Sim/blob/master/simple_bettor.png?raw=true)
 
 The results of our __better bettor__ improves quite a bit. We can incorporate an functionality that breaks the bettor off after they go broke. Visualizing the results of multiple simulations of this kind of bettor gives us a vastly different understanding of the game space.
 
-![Double_bettor](../https://github.com/jaredconnor301/Monte_Carlo_Sim/blob/master/double_bettor.png)
+![Double_bettor](https://raw.githubusercontent.com/jaredconnor301/Monte_Carlo_Sim/master/double_bettor.png?raw=true)
 
 We can visualize that utilizing the martingale strategy changes the aspect of risk that we should care about. In the short run multiple player actually make quite a bit more than the __simple bettor__ but assumably assumed more risk. Over the long run, the simulation life is substantially higher, but what comes into question is the _life expectancy_ of the bettors.
 
@@ -39,7 +39,8 @@ We can generate general statistics that we can utilize as a benchmark for the ne
 
 Now is where the fun comes. By utilizing these statistics, we can run multiple world simulations by adjusting the multiple (remember the _y(x)_) to maximize these statistics.
 
-![Multiple_bettor](../Results.png)
+
+![Multiple_bettor](https://github.com/jaredconnor301/Monte_Carlo_Sim/blob/master/Results.png?raw=true)
 
 So we can see that the best multiple is .4432 and yields the stats of:
 
@@ -47,6 +48,7 @@ So we can see that the best multiple is .4432 and yields the stats of:
 # Profit rate: 28900.00
 
 ## TD;DL
+
 We simulated a Martingale Betting strategy with a Monte_Carlo_Sim to find the bettor can maximize risk adjusted returns by betting .4432 of the previous bet.
 
 ## Further Research
