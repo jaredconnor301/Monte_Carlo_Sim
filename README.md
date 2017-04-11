@@ -35,8 +35,8 @@ We can visualize that utilizing the martingale strategy changes the aspect of ri
 
 We can generate general statistics that we can utilize as a benchmark for the next simulation we'll run. The __double bettor__ simulation yielded us these stats:
 
-## Bust rate (the rate at attrition): 31.325
-## Profit rate (rate which bettors earn a profit): 63.208
+__Bust rate (the rate at attrition): 31.325__
+__Profit rate (rate which bettors earn a profit): 63.208__
 
 Now is where the fun comes. By utilizing these statistics, we can run multiple world simulations by adjusting the multiple (remember the _y(x)_) to maximize these statistics.
 
@@ -45,8 +45,8 @@ Now is where the fun comes. By utilizing these statistics, we can run multiple w
 
 So we can see that the best multiple is .4432 and yields the stats of:
 
-## Bust rate: 8
-## Profit rate: 28900.00
+__Bust rate: 8__
+__Profit rate: 28900.00__
 
 ## TD;DL
 
