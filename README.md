@@ -85,4 +85,4 @@ We simulated a Martingale Betting strategy with a Monte_Carlo_Sim to find the be
 ### Acknowledgments
 
 * Harrison - *Initial Build* - [sentdex](https://github.com/Sentdex)
-* [sentdex YouTube](YouTube.com/Sentdex)
+* [sentdex YouTube](https://www.youtube.com/results?search_query=sentdex)
