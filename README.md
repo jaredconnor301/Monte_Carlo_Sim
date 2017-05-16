@@ -1,6 +1,4 @@
-# Project Title
-
-Monte Carlo Simulation
+# Monte Carlo Simulation
 
 ### Getting Started
 
